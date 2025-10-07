@@ -1,0 +1,6 @@
+import logging
+logging.basicConfig(level=logging.INFO)
+def greet():
+    logging.info("Hello, GitHub!")
+    print("Legacy greeting")
+greet()
